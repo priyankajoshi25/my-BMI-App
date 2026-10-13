@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#7387e1,#553576);
+
+}
+.box{
+   width: 400px;
+   height: 250px;
+   border-width: 10px;
+   border: 2px solid black;
+   justify-content: space-between;
+   text-align: center;
+   background-color:rgb(134, 54, 233);
+}
+button{
+    background-color: rgb(190, 133, 225);
+}
+
